@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DemoCadastro</string>
+    <!--string name="informe_username">Informe o username:</string-->
+    <string name="hint_username">Informe o username:</string>
+    <string name="hint_senha">Informe sua senha:</string>
+    <!--string name="novo_username">Informe seu username</string-->
+    <string name="hint_nome">Informe seu nome</string>
+    <string name="hint_nova_senha">Informe sua senha</string>
+    <!--string name="hint_novo_username">Informe seu username</string-->
+    <string name="bt_conectar">Conectar</string>
+    <string name="novo_usuario">Sou novo usuário</string>
+    <string name="bt_criar">Criar</string>
+</resources>

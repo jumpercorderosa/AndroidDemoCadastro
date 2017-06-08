@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.danielle.democadastro.LoginActivity">
+
+    <EditText
+        style="@style/inputs"
+        android:hint="@string/hint_username"
+        android:id="@+id/etUsername"/>
+
+    <EditText
+        style="@style/inputs_senha"
+        android:hint="@string/hint_senha"
+        android:id="@+id/etSenha"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_conectar"
+        android:id="@+id/btConectar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/novo_usuario"
+        android:gravity="center"
+        android:clickable="true"
+        android:textColor="@drawable/link"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
